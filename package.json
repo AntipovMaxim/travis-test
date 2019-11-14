@@ -1,0 +1,21 @@
+{
+  "name": "travis-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ci:test": "bash test-travis.sh",
+    "ci:auto:merge": "bash auto-merge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martmax/travis-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martmax/travis-test/issues"
+  },
+  "homepage": "https://github.com/martmax/travis-test#readme"
+}
